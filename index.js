@@ -2,12 +2,22 @@
 var katzDeli = [];
 
 
-function takeANumber (katzDeliLine , name) {
+function takeANumber (katzDeliLine) {
   
-  katzDeliLine.push(name);
+  katzDeliLine.push();
   
-  console.log(`Welcome, ${name}. You are number ${katzDeliLine.length} in  line.`);
-  return(`Welcome, ${name}. You are number ${katzDeliLine.length} in line.`);
+  //var count = 0;
+  
+  for(var i = 0; i<katzDeliLine.length ; i++){
+    
+    console.log("The Number is " + katzDeliLine[i]);
+  }
+  
+  
+  
+  
+  //console.log(`Welcome, ${name}. You are number ${katzDeliLine.length} in  line.`);
+  //return(`Welcome, ${name}. You are number ${katzDeliLine.length} in line.`);
   
 }
 
